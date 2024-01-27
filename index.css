@@ -1,0 +1,30 @@
+h1 {
+    color: white;
+    background-color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2  {
+    color: white;
+    background-color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p, li{
+    font-size: 24px;
+    font-family: ;
+}
+
+img {
+    background-repeat: none;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    position: relative;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
