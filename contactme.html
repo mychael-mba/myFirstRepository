@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Form</title>
+    <link rel="stylesheet" href="./contactme.css">
+</head>
+<body>
+    <div class="contactmeContainer">
+        <div class="contactme">Contact Me</div>
+        
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="d58cbd46-1eff-42b1-8200-82832db25793">
+
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+            <div class="namefield">
+                <label for="name">Enter your Name:</label>
+                <input type="text" name="name-field" id="name-field">
+            </div>
+
+            <div class="emailfield" id="">
+                <label for="email">Enter your Email:</label>
+                <input type="email" name="email-field" id="email-field">
+            </div>
+    
+            <div class="textareafield">
+                <label for="message">Enter a Message:</label>
+                <textarea name="message" id="message-field"></textarea>
+            </div>
+
+            <button type="submit" class="submit">Submit</button> 
+            
+            <button type="reset" class="clear">Clear</button>
+        </form>
+    </div>
+    
+</body>
+</html>
