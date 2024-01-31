@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.topSection{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.studentBio{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #eee;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.bodySection{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #efeee7;
+}
+
+.bodyContainer{
+    width: 1024px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    float: left;
+    background-color: #efeee7;
+    padding: 1.5rem;
+}
+
+.nameContainer{
+    width: 70%;
+    height: auto;
+    padding-right: 5rem;
+}
+
+.nameContainer h2{
+    font-size: 1.75rem;
+}
+
+.profileContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.profileContainer p{
+    text-align: start;
+}
+
+.pictureImage{
+    width: fit-content;
+    height: auto;
+}
+
+.pictureImage img{
+    width: 200px;
+    height: auto;
+}
+
+.contactInfoContainer{
+    width: 30%;
+    height: auto;
+    color: #333333;
+}
+
+.contactInfoContainer h2{
+    color: #333333;
+    padding-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.contactInfoContainer ul{
+    color: #333333;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.contactInfoContainer a{
+    color: #d21034;
+}
